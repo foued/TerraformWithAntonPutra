@@ -1,0 +1,25 @@
+Gitignore
+# Terraform providers
+**/.terraform/*
+
+# Terraform State
+*.tfstate
+*.tfstate.*
+
+# Variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Plans Terraform
+*.tfplan
+tfplan
+
+# Logs
+crash.log
+crash.*.log
+
+# Overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
